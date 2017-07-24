@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="needit_staging" max_length="40" name="x_58872_needit_needit_staging" type="collection">
+        <element attributes="import_attribute_name=Requested for,edge_encryption_enabled=true" label="Requested for" max_length="40" name="u_requested_for" type="string"/>
+        <element attributes="import_attribute_name=Requested type,edge_encryption_enabled=true" label="Requested type" max_length="40" name="u_requested_type" type="string"/>
+        <element attributes="import_attribute_name=Requsted for email,edge_encryption_enabled=true" label="Requsted for email" max_length="40" name="u_requsted_for_email" type="string"/>
+        <element attributes="import_attribute_name=Short Description,edge_encryption_enabled=true" label="Short Description" max_length="40" name="u_short_description" type="string"/>
+        <element attributes="import_attribute_name=What needed,edge_encryption_enabled=true" label="What needed" max_length="40" name="u_what_needed" type="string"/>
+        <element attributes="import_attribute_name=When needed" label="When needed" max_length="40" name="u_when_needed" type="glide_date_time"/>
+    </element>
+</database>
